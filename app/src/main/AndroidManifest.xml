@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proj2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proj2">
+        <activity android:name=".abt"/>
+        <activity android:name=".cgpa"/>
+        <activity android:name=".x7x18"/>
+        <activity android:name=".x8x18"/>
+        <activity android:name=".x6x18"/>
+        <activity android:name=".x5x18"/>
+        <activity android:name=".x4x18"/>
+        <activity android:name=".x3x18"/>
+        <activity android:name=".pc_18"/>
+        <activity android:name=".cc_18"/>
+        <activity android:name=".sch_18"/>
+        <activity android:name=".pc_17"/>
+        <activity android:name=".cc_17"/>
+        <activity android:name=".x8x17"/>
+        <activity android:name=".x7x17"/>
+        <activity android:name=".x6x17"/>
+        <activity android:name=".x5x17"/>
+        <activity android:name=".x4x17"/>
+        <activity android:name=".x3x17"/>
+        <activity android:name=".sch_17"/>
+        <activity android:name=".x8x15"/>
+        <activity android:name=".x7x15"/>
+        <activity android:name=".x6x15"/>
+        <activity android:name=".x5x15"/>
+        <activity android:name=".x4x15"/>
+        <activity android:name=".x3x15"/>
+        <activity android:name=".cc15"/>
+        <activity android:name=".pc15"/>
+        <activity android:name=".sch_15"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
